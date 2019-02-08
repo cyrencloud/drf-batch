@@ -1,0 +1,10 @@
+include setup.py
+include README.md
+include CHANGELOG.md
+include MANIFEST.in
+include pytest.ini
+include .coverage
+include .drone.yml
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * *.DS_Store
